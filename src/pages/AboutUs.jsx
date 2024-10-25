@@ -1,12 +1,15 @@
 import React from 'react'
 import '../styles/AboutUs.css';
 import Footer from '../components/Footer';
-
-
 function AboutUs() {
   return (
     
-    <div className='contact'>
+    <div className='contact' style={{
+      backgroundImage: 'url("/purple.jpg")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
     <div className="contact-title"> 
      <h1>About Us</h1>
     </div>
@@ -29,8 +32,6 @@ function AboutUs() {
    
    
    
-
-
  <section className='content2'>
   <div>
     <h1 className='why'>WHY US?</h1>
@@ -68,18 +69,11 @@ function AboutUs() {
       </li></ul>
     
    
-
   </div>
-
  
-
  </section>
  <Footer/>
-
 </div>
-
-
   )
   }
-
 export default AboutUs
