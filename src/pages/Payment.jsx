@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-
-
 import '../styles/payment.css';
-
 function Payment(){
   const[openPopup,setOpenPopup]=useState(false)
-
-
   return (
    
     
-    <div className='contact'>
+    <div className='contact' style={{
+      backgroundImage: 'url("/purple.jpg")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
    
    <div className="contact-section">
      <div className="contact-left">
@@ -64,7 +64,6 @@ function Payment(){
           </div>
           </div>
 }
-
           <div>
           <img className='donate' src="donate.png"/>
           
@@ -84,6 +83,4 @@ function Payment(){
    
   )
 }
-
-
 export default Payment
