@@ -11,7 +11,7 @@ function AboutUs() {
       backgroundRepeat: 'no-repeat'
     }}>
     <div className="contact-title"> 
-     <h1>About Us</h1>
+     <h1>About U</h1>
     </div>
    <div className="contact-section">
      <div className="contact-left">
